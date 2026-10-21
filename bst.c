@@ -171,7 +171,6 @@ int main(){
                 printf("Tree has been mirrored. Contents now: ");
                 show(root);
                 printf("\n");
-                // Mirror it back to restore original state if desired so you can keep working normally
                 mirror(root); 
                 break;
             case 7:
